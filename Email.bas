@@ -93,7 +93,7 @@ With Fields
   .Item("http://schemas.microsoft.com/cdo/configuration/smtpserver") = "smtp.office365.com"
   .Item("http://schemas.microsoft.com/cdo/configuration/smtpserverport") = 25
   .Item("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1
-  .Item("http://schemas.microsoft.com/cdo/configuration/sendusername") = "sales@qdos.com.my" '"linda.septiyana@qdos.com.my" '
+  .Item("http://schemas.microsoft.com/cdo/configuration/sendusername") = "sales@gmail.com.my" '"linda.septiyana@gmail.com.my" '
   .Item("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "Jmp@2023" '"Linda@4644" '
   .Item("http://schemas.microsoft.com/cdo/configuration/sendtls") = True
   .Item("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = True
@@ -103,7 +103,7 @@ Set objMessage.Configuration = objConfig
 
 With objMessage
   .Subject = T
-  .From = "sales@qdos.com.my"
+  .From = "sales@gmail.com.my"
   .To = email_list
   .CreateMHTMLBody "" & H & ""
 
